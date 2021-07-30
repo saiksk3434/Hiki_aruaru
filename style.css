@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.wrapper_1{
+    /* flex-direction: column; */
+    width:100%;
+    margin:0 auto;
+    background-color: #ffffff;
+    /* box-sizing: border-box ; */
+}
+.wrapper_2{
+    width: 100%;
+    display: flex;
+}
+.main_visual{
+    border-top: 18px solid #fff;
+    border-bottom: 18px solid #fff;
+    /* border-radius: 120px; */
+    /* height: 750px; */
+    height: 500px;
+    width: 100%;
+    /* background-color: skyblue; */
+    /* background-color: #1F363D; */
+    background-color: #0E131F;
+    /* background-image: url(img/food.png); */
+    background-image: url(img/food.png);
+    /* object-fit: cover;
+    object-position: 60% 100%; */
+    filter: saturate(200%);
+    /* filter: blur(0.5px) */
+}
+.main_visual h1{
+    /* font-size: 150px; */
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    /* text-shadow: 2px 2px 6px rgb(10, 10, 10), 0px -1px 6px rgb(255, 255, 255); */
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
+    /* margin: ; */
+    /* padding: ; */
+    text-align: center;
+    vertical-align: middle;
+    
+    /* margin-top: 100px; */
+    margin-top: 80px;
+    /* line-height: 250px; */
+    line-height: 150px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.navi{
+    /* height: ; */
+    width: 100px;
+    left: 0px;
+    top: 0px;
+    min-width: 144px;
+    /* background-color: #1F363D; */
+    background-color: #0E131F;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    position: sticky;
+}
+.hako{
+    top: 20px;
+    position: sticky;
+}
+.container_left{
+    /* top: 0px; */
+    /* position: sticky; */
+}
+.container_left li{
+    color: #fff;
+    font-weight: bold;
+    height: 80px;
+    width: 90%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.container_left a{
+    color: #fff;
+    text-decoration: none;
+}
+.container_left a:hover{
+    color: #7fff00;
+}
+
+/*  */
+.tuduki a{
+    color: #fff;
+    text-decoration: none;
+}
+.tuduki a:hover{
+    color: chartreuse;
+}
+
+.container_right{
+    background-color: #fff;
+    width: calc(100% - 100px);
+    height: 100%;
+}
+
+
+.description{
+    height: 200px;
+    width: 100%;
+    /* background-color:dodgerblue; */
+    display: flex;
+
+}
+.description_text{
+    height: 100%;
+    width: 40%;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+    background-color: #3b2c3b;
+    /* background-image: url(img/food.png); */
+    /* filter: saturate(200%); */
+}
+.description_text h2{
+    color: #bbf1d8;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    /* color: rgb(27, 27, 27); */
+}
+.description_text p{
+    color: #bbf1d8;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.description_img{
+    height: 100%;
+    width: 60%;
+    /* background-color: #BBDB44; */
+    right: 0px;
+    top: 0px;
+    /* background-color: skyblue; */
+    background-color: #0E131F;
+    /* background-image: url(img/food.png); */
+    /* filter: saturate(200%); */
+}
+
+
+
+ul {
+    list-style: none;
+    
+  }
+li{
+    font-size: 16px;
+    color: #fff;
+    width: 40%;
+    /* height: 36%; */
+}
+.shadow{
+    /* height: 100%; */
+    /* background-image: url(img/natural-paper.png); */
+}
+.title{
+    text-align: center;
+}
+.title h3{
+    font-size: 46px;
+    padding-bottom: 25px;
+    color: rgb(27, 27, 27);
+}
+/*1111*/
+.contents_box1{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    padding-bottom: 16px;
+    left: 100px;
+    background-color: #3185FC;
+    /* background-image: url(img/natural-paper.png); */
+    overflow: hidden;
+    /* filter: saturate(130%); */
+    border-bottom: 10px wavy #C9F299;
+}
+.contents_box1 title{
+    width: 20%;
+    height: 100%;
+}
+.title{
+    width: 20%;
+}
+.title h3{
+    margin-top: 60px;
+    color: #000;
+    font-size: 44px;
+    transform: scale(1,1.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h3 span{
+    color: #fff;
+    font-size: 150px;
+    line-height: 120px;
+    
+}
+ul {
+    list-style: none;
+  }
+.aruaru1{
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.aruaru1 li{
+    height: 100%;
+    /* width: 300px; */
+    text-align: center;
+    background-color: #3185FC;
+}
+.aruaru1 li img{
+    width: auto;
+    height: 100%;
+    /* border-radius: 10px; */
+    /* background-color: #fff; */
+}
+.aruaru1 p{
+    color: rgb(27, 27, 27);
+    padding: 0px 20px;
+    text-align: left;
+    /* font-family: 'Kiwi Maru', serif; */
+    /* height: 100%; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+.hako1{
+    background-color: #fff;
+    width: 84%;
+    height: 50%;
+    margin: 25px auto 10px;
+    border-radius: 8px;
+    /* filter: saturate(140%); */
+}
+.aruaru1 h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*2222*/
+.contents_box2{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    padding-bottom: 16px;
+    left: 100px;
+    background-color: #57CC99;
+    /* background-image: url(img/natural-paper.png); */
+    overflow: hidden;
+}
+.contents_box2 title{
+    width: 20%;
+    height: 100%;
+}
+.title{
+    width: 20%;
+}
+.title h3{
+    margin-top: 60px;
+    color: #000;
+    font-size: 44px;
+    transform: scale(1,1.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h3 span{
+    color: #fff;
+    font-size: 150px;
+    line-height: 120px;
+}
+ul {
+    list-style: none;
+  }
+.aruaru2{
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.aruaru2 li{
+    height: 100%;
+    /* width: 300px; */
+    text-align: center;
+    background-color: #57CC99;
+}
+.aruaru2 li img{
+    width: auto;
+    height: 100%;
+    /* background-color: #fff; */
+}
+.aruaru2 p{
+    color: rgb(27, 27, 27);
+    padding: 0px 20px;
+    text-align: left;
+    /* font-family: 'Kiwi Maru', serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+.hako2{
+    background-color: #fff;
+    width: 84%;
+    height: 50%;
+    margin: 25px auto 10px;
+    border-radius: 8px;
+}
+.aruaru2 h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/* 3333 */
+.contents_box3{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    padding-bottom: 16px;
+    left: 100px;
+    background-color: #F9DC5C;
+    /* background-image: url(img/natural-paper.png); */
+    overflow: hidden;
+}
+.contents_box3 title{
+    width: 20%;
+    height: 100%;
+}
+.title{
+    width: 20%;
+}
+.title h3{
+    margin-top: 60px;
+    color: #000;
+    font-size: 44px;
+    transform: scale(1,1.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h3 span{
+    color: #fff;
+    font-size: 150px;
+    line-height: 120px;
+    
+}
+ul {
+    list-style: none;
+  }
+.aruaru3{
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.aruaru3 li{
+    height: 100%;
+    /* width: 300px; */
+    text-align: center;
+    background-color: #F9DC5C;
+}
+.aruaru3 li img{
+    width: auto;
+    height: 100%;
+    /* background-color: #fff; */
+}
+.aruaru3 p{
+    color: rgb(27, 27, 27);
+    padding: 0px 20px;
+    text-align: left;
+    /* font-family: 'Kiwi Maru', serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+.hako3{
+    background-color: #fff;
+    width: 84%;
+    height: 50%;
+    margin: 25px auto 10px;
+    border-radius: 8px;
+}
+.aruaru3 h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/*4444*/
+.contents_box4{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    padding-bottom: 16px;
+    left: 100px;
+    /* background-color: #5D4E6D; */
+    background-color: #E84855;
+    /* background-image: url(img/natural-paper.png); */
+    overflow: hidden;
+}
+.contents_box4 title{
+    width: 20%;
+    height: 100%;
+}
+.title{
+    width: 20%;
+}
+.title h3{
+    margin-top: 60px;
+    color: #000;
+    font-size: 44px;
+    transform: scale(1,1.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h3 span{
+    color: #fff;
+    font-size: 150px;
+    line-height: 120px;
+    
+}
+ul {
+    list-style: none;
+  }
+.aruaru4{
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.aruaru4 li{
+    height: 100%;
+    /* width: 300px; */
+    text-align: center;
+    background-color: #E84855;
+}
+.aruaru4 li img{
+    width: auto;
+    height: 100%;
+    /* background-color: #fff; */
+}
+.aruaru4 p{
+    color: rgb(27, 27, 27);
+    padding: 0px 20px;
+    text-align: left;
+    /* font-family: 'Kiwi Maru', serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+.hako4{
+    background-color: #fff;
+    width: 84%;
+    height: 50%;
+    margin: 25px auto 10px;
+    border-radius: 8px;
+}
+.aruaru4 h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*5555*/
+.contents_box5{
+    display: flex;
+    width: 100%;
+    height: 370px;
+    padding-bottom: 16px;
+    left: 100px;
+    /* background-color: #4F345A; */
+    background-color: #a280e6;
+    /* background-image: url(img/natural-paper.png); */
+    overflow: hidden;
+}
+.contents_box5 title{
+    width: 20%;
+    height: 100%;
+}
+.title{
+    width: 20%;
+}
+.title h3{
+    margin-top: 60px;
+    color: #000;
+    font-size: 44px;
+    transform: scale(1,1.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h3 span{
+    color: #fff;
+    font-size: 150px;
+    line-height: 120px;
+    border-bottom: 10px solid #fff;
+}
+ul {
+    list-style: none;
+  }
+.aruaru5{
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.aruaru5 li{
+    height: 100%;
+    /* width: 300px; */
+    text-align: center;
+    background-color: #a280e6;
+}
+.aruaru5 li img{
+    width: auto;
+    height: 100%;
+    /* background-color: #fff; */
+}
+.aruaru5 p{
+    color: #000;
+    padding: 0px 20px;
+    text-align: left;
+    /* font-family: 'Kiwi Maru', serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+.hako5{
+    background-color: #fff;
+    width: 84%;
+    height: 50%;
+    margin: 25px auto 10px;
+    border-radius: 8px;
+}
+.aruaru5 h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* コピーライト */
+.copyright{
+    width:100%;
+    margin:0 auto;
+}
+.copyright p{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+ul {
+    list-style: none;
+  }
